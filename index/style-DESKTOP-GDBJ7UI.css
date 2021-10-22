@@ -3,7 +3,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    /*scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
     color: #000;
 }
 @font-face {
@@ -16,17 +16,20 @@
     font-family: "SangBleu Italic";
     src: url('font/SANGBLEUEMPIRETRIAL-REGULARITALIC');
 }
+body{
+    background-color: rgb(247, 251, 255);
+
+}
 .wrapper{
     width: auto;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(247, 251, 255);
 }
 .home{
-    width: 90%;
-    height: 90%;
+    width: 85%;
+    height: 85%;
     background-color: rgb(247, 251, 255);
 }
 header{
@@ -39,19 +42,16 @@ header h2{
     font-size: 50px;
 
 }
+header #point{
+    color:rgb(207, 109, 74);
+}
 header nav ul{
-    margin: 0 auto;
     text-align: center;
 }
 header nav ul li{
-    display: inline;
+    display: inline-block;
     font-family: clash display light;
-    padding: 5px;
-
-}
-
-header #point{
-    color:rgb(207, 109, 74);
+    padding: 0 15px 0 15px;
 }
 .travaux{
     width: 100%;

@@ -1,0 +1,113 @@
+*{
+    background-color: rgb(247, 251, 255);
+    text-decoration: none;
+
+}
+.paul{
+    font-family: Clash display medium;
+    text-transform: lowercase;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    z-index: 100;
+    background-color: rgb(247, 251, 255);
+
+    
+    
+}
+.paul a:hover{
+    color: rgb(51, 51, 51);
+
+}
+.paul a:visited{
+    color: rgb(51, 51, 51);
+
+}
+.paul h1{
+    color: rgb(51, 51, 51);
+}
+SPAN{
+    color: rgb(207, 109, 74);
+    font-size: 80px;
+}
+.contact{
+    width: 100%;
+    height:100vh;
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: rgb(247, 251, 255);
+
+    
+}
+.contact #contact{
+    width: 40%;
+    height: 50vh;
+    margin: 0 auto;
+    
+}
+.contact h3{
+    text-align: center;
+    font-family: clash display medium;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(51, 51, 51);
+
+}
+.contact #contact form{
+    text-align: center;
+}
+.contact #contact form label{
+    display: block;
+    margin-bottom: 15px;
+}
+.contact #contact form label .iname{
+    width: 60%;
+    height:3vh;
+    border: none;
+    box-shadow: 5px 3px 0px 0.3px rgb(207, 109, 74);
+    border-radius: 3px;
+    background-color: rgb(247, 251, 255);
+    
+}
+.contact #contact form label .iemail{
+    width: 60%;
+    height:3vh;
+    border: none;
+    box-shadow: 5px 3px 0px rgb(207, 109, 74);
+    border-radius: 3px;    
+    background-color: rgb(247, 251, 255);
+
+}
+.contact #contact form label .iobjet{
+    width: 60%;
+    height:7vh;
+    border: none;
+    box-shadow: 5px 3px 0px rgb(207, 109, 74);
+    border-radius: 3px;
+    background-color: rgb(247, 251, 255);
+
+}
+.contact #contact form label .imessage{
+    width: 60%;
+    height:15vh;
+    border: none;
+    box-shadow: 5px 3px 0px rgb(207, 109, 74);
+    border-radius: 3px;
+    background-color: rgb(247, 251, 255);
+
+}
+.contact #contact form button{
+    padding: 15px;
+    font-family: clash display light;
+    border: none;
+    border-radius: 3px;
+}
+.contact #contact form button:hover{
+    background-color: rgb(207, 109, 74);
+}
