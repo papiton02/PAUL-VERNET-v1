@@ -65,3 +65,23 @@ SPAN{
     font-family: clash display light;
     font-size: 20px;
 }
+@media screen and (max-width: 1366px)
+{
+    .paul{
+        font-size: 40px;
+    }
+    .contact #propos{
+        padding: 0;
+    }
+    .contact #propos h3{
+        margin: 0;
+        font-size: 35px;
+    }
+    .contact #propos h4{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .contact #propos p{
+        font-size: 20px;
+    }
+}

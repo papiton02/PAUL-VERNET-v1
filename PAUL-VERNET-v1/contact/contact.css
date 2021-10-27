@@ -111,3 +111,16 @@ SPAN{
 .contact #contact form button:hover{
     background-color: rgb(207, 109, 74);
 }
+@media screen and (max-width: 1366px)
+{
+    .paul{
+        font-size: 40px;
+    }
+    .contact{
+        margin-top: 0;
+    }
+    .contact {
+        height: 20vh;
+        padding: 0;
+    }
+}
