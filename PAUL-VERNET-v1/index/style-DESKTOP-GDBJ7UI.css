@@ -40,14 +40,14 @@ body{
     color: rgb(51, 51, 51);
     font-family: Clash display medium;
     text-transform: lowercase;
-    font-size: 80px;
+    font-size: 8em;
     animation-name: slide;
     animation-duration: 2s;
     opacity: 0;
 }
 .anim span{
     color: rgb(207, 109, 74);
-    font-size: 80px;
+    font-size: 1em;
 }
 @keyframes slide{
     from{
@@ -122,12 +122,12 @@ header nav ul li{
     height: 80%;
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
 
 }
-.travaux p{
+/*.travaux p{
     padding: 50px;
-    font-size: 30px;
+    font-size: 2em;
     font-family: Simplifica;
     letter-spacing: .02em;
 
@@ -151,13 +151,17 @@ img{
     max-width: 55%;
     max-height: 55%;
     z-index: 1000;
-    /*top: 50%;
-    left: 50%;
-    margin-top: -279.665px;
-    margin-left: -218.75px;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#fourth{
+    max-width: 48%;
+    max-height: 48%;
+}
+#fifth{
+    max-width: 48%;
+    max-height: 48%;
 }
 
 p a:visited{
@@ -165,14 +169,125 @@ p a:visited{
 }
 p a:hover{
     color: rgb(207, 109, 74);
+    animation-name: opa;
+    animation-duration: 0.8s;
 }
-
+@keyframes opa {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
 a:hover img{
     visibility: visible;
     opacity: 1;
     transition:visibility 0.4s ease-in-out,opacity 0.4s ease-in-out;
     color: #000;
     z-index: 100;
+}*/
+.travaux a{
+    display: inline;
+    margin: 2px;
+    -webkit-transition: all .5s ease-in-out -.1s;
+    box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.2) ;
+}
+.main1, .main5{
+    width: 80px;
+    height: 450px;
+}
+.main2, .main4{
+    width: 80px;
+    height: 600px;
+}
+
+.main1{
+      background: url('../img/LOGO-PAUL2.png') center no-repeat;
+      background-size: cover;
+      filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    width: 80px;
+    height: 450px;
+      
+}
+.main2{
+      background: url("../img/L'ART.png") center no-repeat;
+      background-size: cover;
+      filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    width: 80px;
+    height: 600px;
+}
+.main3{
+    background: url("../img/earth.png") center no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    width: 80px;
+    height: 800px;
+}
+.main4{
+    background: url("../img/jimbuckels.png") center no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    width: 80px;
+    height: 600px;
+}
+.main5{
+    background: url("../img/citronnade.jpg") center no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    width: 80px;
+    height: 450px;
+}
+.travaux .main1:hover{
+    width: 200px;
+    height: 650px;
+    background-size: cover;
+    filter: none;
+}
+.travaux .main5:hover{
+    width: 200px;
+    height: 650px;
+    background-size: cover;
+    filter: none;
+}
+.travaux .main2:hover{
+    width: 200px;
+    height: 800px;
+    background-size: cover;
+    filter: none;
+}
+.travaux .main4:hover{
+    width: 200px;
+    height: 800px;
+    background-size: cover;
+    filter: none;
+}
+.travaux .main3:hover{
+    width: 200px;
+    height: 900px;
+    background-size: cover;
+    filter: none;
 }
 
 .paul{
@@ -185,7 +300,7 @@ a:hover img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 3.5em;
     z-index: 100;
     
     
@@ -195,14 +310,14 @@ a:hover img{
 }
 SPAN{
     color: rgb(207, 109, 74);
-    font-size: 80px;
+    font-size: 1em;
     font-weight: 100;
 
 }
 p{
     text-align: center;
     font-family: simplifica;
-    font-size: 22px;
+    font-size: 1.8em;
     color: rgb(51, 51, 51);
     padding-top: 10px;
 }
